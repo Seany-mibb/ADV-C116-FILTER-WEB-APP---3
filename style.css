@@ -1,0 +1,82 @@
+         
+         .btn-grad {
+            background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            width:50%;
+            letter-spacing: 2px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+                   
+         .btn-grad2 {
+            background-image: linear-gradient(to right, #de6161 0%, #2657eb  51%, #de6161  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            width:20%;
+          }
+
+          .btn-grad2:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+                   
+         .btn-grad3 {
+          background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+          margin: 10px;
+          padding: 15px 45px;
+          text-align: center;
+          text-transform: uppercase;
+          transition: 0.5s;
+          background-size: 200% auto;
+          color: white;            
+          box-shadow: 0 0 20px #eee;
+          border-radius: 10px;
+          display: block;
+          width:20%;
+        }
+
+        .btn-grad3:hover {
+          background-position: right center; /* change the direction of the change here */
+          color: #fff;
+          text-decoration: none;
+        }
+       
+          
+canvas
+{
+    animation-name: cool;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cool
+{
+    from {box-shadow: 1px 1px 38px #D6A4A4;}
+    50% {box-shadow: 1px 1px 38px #E8CBC0 ;}
+    to {box-shadow: 1px 1px 38px #636FA4;}
+}
